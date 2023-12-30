@@ -1,0 +1,23 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "One backend server for all of my small projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lugh-tuatha/backend-server.git"
+  },
+  "author": "Ace Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lugh-tuatha/backend-server/issues"
+  },
+  "homepage": "https://github.com/lugh-tuatha/backend-server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
