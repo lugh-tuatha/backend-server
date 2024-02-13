@@ -6,4 +6,4 @@ router.get("/reflections", StoicController.fetchReflections);
 
 router.post("/reflections", StoicController.addReflection);
 
-module.exports = router;
+module.exports = router;  

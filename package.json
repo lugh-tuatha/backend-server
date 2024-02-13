@@ -4,7 +4,7 @@
   "description": "One backend server for all of my small projects.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon src/server"
+    "dev": "nodemon src/server"
   },
   "repository": {
     "type": "git",

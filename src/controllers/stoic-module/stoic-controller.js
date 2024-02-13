@@ -5,7 +5,7 @@ const Reflection = require('../../models/stoic-module/reflection-schema')
 
 class StoicController {
     // @desc   Get All Reflections
-    // @route  GET /api/v1/stoic/reflection
+    // @route  GET /api/v1/stoic/reflections
     // @access Public
     async fetchReflections(req, res){
         try {
@@ -25,7 +25,7 @@ class StoicController {
     }
 
     // @desc   Post One Reflection
-    // @route  POST /api/v1/stoic/reflection
+    // @route  POST /api/v1/stoic/reflections
     // @access Public
     async addReflection(req, res){
         try {
